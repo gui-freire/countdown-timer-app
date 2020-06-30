@@ -1,0 +1,23 @@
+<div class="component">
+    <h4>Countdown timer:</h4>
+    <form class="form-inline">
+        <div class="form-row">
+            <label for="date-name" id="input-label">Name of the event:</label>
+            <input #nameInput class="form-control" type="text" id="name-input">
+        </div>
+
+        <div class="form-row">
+            <label for="date-input" id="input-label">Select a date for the event:</label>
+            <input #dateInput class="form-control" type="date" id="date-input">
+        </div>
+
+        <div class="form-row">
+            <label for="time-input" if="input-label">Select a time for the event:</label>
+            <input #timeInput class="form-control" type="time" id="time-input">
+        </div>
+    </form>
+    <div class="form-row">
+        <button type="button" (click)="receiveDate(nameInput.value, dateInput.value, timeInput.value)" class="btn btn-primary">Start
+            countdown</button>
+    </div>
+</div>

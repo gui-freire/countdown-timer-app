@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CountdownTimerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
@@ -26,7 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# countdown-timer-app
-AngularJs App that shows a timer for user imput dates
->>>>>>> 5830c279fbad2ad4b743de1c3f03ddbb1c03e83d
